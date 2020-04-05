@@ -1,0 +1,44 @@
+* {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#sideBar {
+    height: 100vh;
+    box-shadow: 2px 0 10px black;
+    background-color: #222f3e;
+    z-index: 1;
+}
+
+#viewHolder {
+    height: 100vh;
+}
+
+#sideBarMenu>li {
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    height: 9vh;
+    border-bottom: 1px solid #576574;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+#sideBarMenu>li:hover {
+    background-color: #34495e;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: white;
+}
+
+#hms {
+    width: 17vw;
+    height: auto;
+}

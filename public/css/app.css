@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css?family=Numans");
+.our-team-main {
+  width: 100%;
+  height: auto;
+  border-bottom: 5px #323233 solid;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+  margin-bottom: 28px; }
+
+.our-team-main img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  width: 90px; }
+
+.our-team-main h3 {
+  font-size: 20px;
+  font-weight: 700; }
+
+.our-team-main p {
+  margin-bottom: 0; }
+
+.team-back {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 15px 0 15px;
+  text-align: left;
+  background: #fff; }
+
+.team-front {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  padding: 15px;
+  bottom: 0px;
+  transition: all 0.5s ease; }
+
+.our-team-main:hover .team-front {
+  bottom: -200px;
+  transition: all 0.5s ease; }
+
+.our-team-main:hover {
+  border-color: #777;
+  transition: 0.5s; }
+
+/*our-team-main*/
+.schedule-warp {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding: 20px 30px;
+  border: solid 1px #ddd;
+  background-color: #f5f5f5;
+  -webkit-transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89); }
+
+.schedule {
+  background-color: #fff; }
+
+.schedule-warp:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+  border: solid 1px rgba(100, 40, 145, 0.97); }
+
+.schedule {
+  padding: 100px 0px;
+  background-color: #ecedf0;
+  font-family: 'Titillium Web'; }
+
+.schedule-tag {
+  color: #fff;
+  background-color: #6164b2;
+  padding: 3px 8px;
+  margin-right: 15px;
+  width: 90px;
+  font-family: 'Titillium Web';
+  text-align: center; }
+
+.schedule-header span {
+  display: inline-block;
+  margin-right: 25px; }
+
+.schedule-header {
+  margin-bottom: 80px; }
+
+.schedule-card {
+  position: relative;
+  margin-bottom: 0.7em; }
+
+.schedule-card:hover .insidebox {
+  transform: scale(1.033);
+  /* box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+
+.schedule-card:hover:after {
+  background: #8a56d1;
+  width: 25px; }
+
+.schedule-card:after {
+  height: 2px;
+  width: 22px;
+  background: #ddd;
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -22px;
+  transition: all 0.3s ease-in; }
+
+.insidebox {
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.07);
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+  display: flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: #6164B2;
+  transition: all 0.2s ease-in;
+  /*    justify-content: center;*/ }
+
+.day-one {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #6164B2; }
+
+html,
+body {
+  height: 100%;
+  font-family: 'Numans', sans-serif; }
+
+.container {
+  height: 100%;
+  align-content: center; }
+
+.card {
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5) !important; }
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312; }
+
+.social_icon span:hover {
+  color: white;
+  cursor: pointer; }
+
+.card-header h3 {
+  color: white; }
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px; }
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #FFC312;
+  color: black;
+  border: 0 !important; }
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important; }
+
+.remember {
+  color: white; }
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px; }
+
+.form-group {
+  text-align: center; }
+
+#loginb {
+  color: black;
+  background-color: #ecb306;
+  width: auto; }
+
+#loginb:hover {
+  color: black;
+  background-color: white; }
+
+.links {
+  color: white; }
+
+.links a {
+  margin-left: 4px; }
+
+a:focus,
+a:hover,
+a {
+  outline: none;
+  text-decoration: none; }
+
+li,
+ul {
+  text-decoration-line: none;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.home {
+  background: #f6f7fa; }
+
+#navigation {
+  background-color: #edf0f5; }
+
+#navigation {
+  padding: 0; }
+
+.display-table {
+  display: table;
+  padding: 5px;
+  height: 100%;
+  width: 100%; }
+
+.display-table-row {
+  display: table-row;
+  height: 100%; }
+
+.display-table-cell {
+  display: table-cell;
+  float: none;
+  height: 100%; }
+
+.v-align {
+  vertical-align: top; }
+
+.logo img {
+  max-width: 180px;
+  padding: 16px 0 17px;
+  width: 100%; }
+
+.navi i {
+  font-size: 20px; }
+
+#navigation {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.logo {
+  text-align: center; }
+
+.navi a {
+  border-bottom: 1px solid #0d172e;
+  border-top: 1px solid #0d172e;
+  color: #ffffff;
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 28px 20px;
+  text-decoration: none; }
+
+.navi i {
+  margin-right: 15px;
+  color: #5584ff; }
+
+.navi .active a {
+  background: rgba(18, 33, 67, 0.8);
+  border-left: 5px solid #5584ff;
+  padding-left: 15px; }
+
+.navi a:hover {
+  background: #122143 none repeat scroll 0 0;
+  border-left: 5px solid #5584ff;
+  display: block;
+  padding-left: 15px; }
+
+.details {
+  width: 100vw;
+  height: auto;
+  z-index: 10;
+  background-color: #fff; }
+
+* {
+  font-size: 18px;
+  font-family: sans-serif; }
+
+#sideBar {
+  height: 100vh;
+  box-shadow: 2px 0 10px black;
+  background-color: #222f3e;
+  z-index: 1; }
+
+#viewHolder {
+  height: 100vh; }
+
+#sideBarMenu > li {
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  height: 9vh;
+  border-bottom: 1px solid #576574;
+  cursor: pointer;
+  transition: all 0.1s; }
+
+#sideBarMenu > li:hover {
+  background-color: #34495e; }
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem; }
+
+a:hover {
+  color: white; }
+
+#hms {
+  width: 17vw;
+  height: auto; }
