@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>Staff Dashboard</title>
+  <title>Shift</title>
   <style>
     #shiftd {
     padding:3%;
@@ -109,7 +109,7 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="schedule-warp">
-                      <div class="day-one">DAY 1: September 21 (Friday) <a href="javascript:history.go(0)" id="an" class="previous">&laquo; Dashboard</a></div>
+                      <div class="day-one">Today Schedule<a href="javascript:history.go(0)" id="an" class="previous">&laquo; Dashboard</a></div>
                         <div class="schedule-card">
                           <div class="insidebox">
                             <span class="schedule-tag">8:00 AM</span> 
@@ -119,13 +119,13 @@
                         <div class="schedule-card">
                           <div class="insidebox">
                             <span class="schedule-tag">8:30 AM</span> 
-                            <span class="schedule-start">Opening Ceremony, Running Brunch</span>                  
+                            <span class="schedule-start">Meeting with staff members</span>                  
                           </div> 
                         </div>
                         <div class="schedule-card">
                           <div class="insidebox">
                             <span class="schedule-tag">9:00 AM</span> 
-                            <span class="schedule-start">On-Site Hacking Starts</span>                  
+                            <span class="schedule-start">Conference</span>                  
                           </div> 
                         </div>
                         <div class="schedule-card">
@@ -136,14 +136,14 @@
                         </div>
                         <div class="schedule-card">
                           <div class="insidebox">
-                            <span class="schedule-tag">6:00 PM</span> 
-                            <span class="schedule-start">On-Site Hacking Ends, Short Closing Message, Everyone Out*</span>                  
+                            <span class="schedule-tag">3:00 PM</span> 
+                            <span class="schedule-start">Manage music concert</span>                  
                           </div> 
                         </div>
                         <div class="schedule-card">
                           <div class="insidebox">
-                              <span class="schedule-tag">6:30 PM</span> 
-                              <span class="schedule-start">Friday Night Mixer (Off-campus, details TBD)</span>                  
+                              <span class="schedule-tag">4:30 PM</span> 
+                              <span class="schedule-start">Check-Out</span>                  
                           </div> 
                         </div>
                       </div>

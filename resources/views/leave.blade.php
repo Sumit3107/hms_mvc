@@ -4,12 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>Staff Dashboard</title>
-  <script>
-      function myfunc(){
-
-      }
-  </script>
+  <title>Leave</title>
   <style>
     #leaved {
     padding:3%;
@@ -121,11 +116,14 @@
                                 <label class="col-3" id="startt">Start time</label>
                                 <input class="col-3" type="time" name="datetime" id="stime">
                                 <hr>
-                                <label class="col-3" id="startd">End Date:</label>
+                                <label class="col-3" id="endd">End Date:</label>
                                 <input class="col-6" type="date" name="datepicker" id="sdate"><br>
-                                <label class="col-3" id="startt">End time</label>
+                                <label class="col-3" id="endt">End time</label>
                                 <input class="col-3" type="time" name="datetime" id="stime">
                                 <br>
+                                <hr>
+                                <label class="col-3" id="reason">Reason</label>
+                                <textarea name="reason" id="reason" cols="40" rows="3"></textarea><br>
                                 <div class="text-center">
                                     <button type="button" class="btn-sm btn-success mt-3" onclick="myfunc()">Apply</button>
                                 </div>

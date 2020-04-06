@@ -34,4 +34,13 @@ Route::get('/salary', function () {
 }); 
 Route::get('/update', function () {
     return view('update');
+});
+Route::get('/guestlogin', function () {
+    return view('guestlogin');
 }); 
+Route::get('/guestdash', function () {
+    return view('guest');
+});
+Route::get('/guestdetails', function () {
+    return view('guestdetails');
+});
